@@ -851,10 +851,6 @@ a:focus {
   background-image: url(../images/location-white.png);
 }
 
-/* .info_items .item .itm-div .img-box.box-2 {
-  background-image: url(../images/telephone-white.png);
-} */
-
 .info_items .item .itm-div{
   width: 100%;
   display: flex;
