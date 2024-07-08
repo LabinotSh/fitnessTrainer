@@ -15,6 +15,7 @@
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- bootstrap core css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
@@ -48,13 +49,13 @@
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="why.html"> Why Me </a>
+                  <a class="nav-link" href="#whyMe"> Why Me </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="trainer.html"> Achievments</a>
+                  <a class="nav-link" href="#experience"> Experience</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html"> Contact Us</a>
+                  <a class="nav-link" href="#contact"> Contact</a>
                 </li>
               </ul>
               <div class="user_option">
@@ -90,7 +91,7 @@
     <!-- end slider section -->
   </div>
   <!-- Us section -->
-  <section class="us_section layout_padding">
+  <section class="us_section layout_padding" id="whyMe">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -183,7 +184,7 @@
 
 
   <!-- healthy section -->
-  <section class="heathy_section layout_padding">
+  <section class="heathy_section layout_padding" id="experience">
         <div class="detail-box">
             <h2>
              EXPERIENCE
@@ -250,6 +251,74 @@
   <!-- end heathy section -->
   <!-- trainer section -->
 
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Testimonials
+        </h2>
+      </div>
+      <div id="carouselExample2Indicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExample2Indicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExample2Indicators" data-slide-to="1"></li>
+          <li data-target="#carouselExample2Indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="box">
+              <div class="img-box">
+                <img src="./images/client.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Consectetur
+                </h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="box">
+              <div class="img-box">
+                <img src="./images/client.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Consectetur
+                </h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="box">
+              <div class="img-box">
+                <img src="./images/client.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Consectetur
+                </h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
   <section class="trainer_section layout_padding">
      <div class="detail-box">
                   <div class="section__pic-container">
@@ -276,7 +345,7 @@
 
   <!-- contact section -->
 
-  <section class="contact_section ">
+  <section class="contact_section" id="contact">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 px-0">
@@ -288,10 +357,38 @@
           <div class="form_container pr-0 pr-lg-5 mr-0 mr-lg-2">
             <div class="heading_container">
               <h2>
-                Contact Us
+                Contact Me
               </h2>
             </div>
-            <form action="">
+            <div>
+              You can find me in any of my socials listed below:
+            </div>
+            <div class="social-icons">
+              <a href="#"  title="facebook"> 
+                <i class="fa fa-facebook-square" aria-hidden="true">
+                  <span>/Dior Sherifi</span>
+                </i>
+              </a>
+              <!-- <a href="#" title="tiktok"> 
+                <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+              </a> -->
+              <a href="#" title="whatsapp">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+              </a>
+              <a href="#" title="twitter"> 
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              </a>
+              <a href="#" title="instagram">  
+                <i class="fa fa-instagram" aria-hidden="true">
+                  <span>@hybridxdior</span>
+                </i>
+              </a>
+              <a href="#" title="linkedin">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <!-- <form action="">
               <div>
                 <input type="text" placeholder="Name" />
               </div>
@@ -309,7 +406,7 @@
                   Send
                 </button>
               </div>
-            </form>
+            </form> -->
           </div>
         </div>
       </div>
@@ -336,21 +433,21 @@
             </div>
           </div>
         </a>
-        <a href="">
-          <div class="item">
+        <a href="https://wa.me/+0000000000?text=MESSAGE" target="_blank">
+          <div class="item-whatsapp">
             <div class="itm-div">
               <div class="img-box-10">
                 <img class="whats" src="./images/vecteezy_whatsapp-logo-png-whatsapp-icon-png-whatsapp-transparent_18930746.png" alt="" />
               </div>
             </div>
             <div class="detail-box">
-              <p>
+              <p id='whatsapp' onclick="">
                 +02 1234567890
               </p>
             </div>
           </div>
         </a>
-        <a href="">
+        <a href="mailto:me@me.com" target="_blank">
           <div class="item ">
             <div class="itm-div">
               <div class="img-box-11">
@@ -365,6 +462,7 @@
           </div>
         </a>
       </div>
+      
     </div>
   </section>
 
@@ -378,6 +476,16 @@
   <!-- footer section -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script>
+    var x;
+    x = document.getElementById('whatsapp');
+
+    function redirectWhatsApp() {
+      console.log("HEREEEEE WGAHAa----");
+      window.open('whatsapp://send/?phone=0000000', '_blank')
+    }
+    x.onclick = redirectWhatsApp;
+  </script>
 
 </body>
 
